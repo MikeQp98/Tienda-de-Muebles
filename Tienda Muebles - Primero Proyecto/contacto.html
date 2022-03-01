@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:ital,wght@0,700;0,900;1,300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="styles/app.css">
+    
+</head>
+<body>
+    <body>
+        <header>
+        <h1 class="nombre-sitio">Tiendas <span>Muebles</span> </h1>
+    </header>
+    <div class="contenedor-navegacion">
+    <nav class="nav-principal contenedor">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="blog.html">Blog</a>
+        <a href="galeria.html">Galerìa</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    </div>
+    
+    <main class="contacto">
+        <h2 class="text-center">Contacto </h2>
+   
+        <form class="formulario">
+            <fieldset>
+                <Legend>Tus Datos</Legend>
+
+        <div class="Campo">
+            <label for="nombre"> Nombre</label>
+            <input class="input" id="nombre" type="text" placeholder="Coloca tu Nombre" required>
+        </div>
+
+        <div class="Campo">
+            <label for="asunto">Asunto</label>
+            <input id="asunto" type="text" placeholder="Asunto">
+        </div>
+
+        <div class="Campo">
+            <label for="telefono"> Tu Telefono</label>
+            <input id="telefono" type="tel" placeholder="telefono">
+        </div>
+
+        <div class="Campo">
+            <label for="Email">Tu Email </label>
+            <input id="Email" type="email"placeholder="Tu Email">
+        </div>
+
+        <div class="Campo">
+            <label for="tel">Mensaje </label>
+            <textarea cols="30" rows="10"></textarea>
+            
+        </div>
+       
+    </fieldset>
+
+    <fieldset>
+        <legend>Paìs</legend>
+
+        <div class="Campo">
+           <label for="Paìs"> Paìs</label>
+
+           <select id="Paìs">
+            <option disabled>
+                ---Seleccione Su Paìs>
+               </option>
+               <option>
+                Venezuela
+               </option>
+               <option>
+                Mexico
+               </option>
+               <option>
+                Colombia
+               </option>
+           </select>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend> Informacion Extra</legend>
+        <div class="campo">
+    <label for="cliente"> cliente</label>
+    <input id= "cliente" type="radio" name="tic"> 
+        </div>
+
+        <div class="campo">
+            <label for="Proveedor"> Proveedor</label>
+            <input id= "Proveedor" type="radio" name="tic">
+        </div>
+
+        <div class="campo">
+
+            <label for="categorias">Categoria de Interes</label>
+            <input list="categorias" name="categorias">
+            <datalist id="categorias">
+                <option value="oficina">
+                <option value="taller">
+                <option value="consultorio">
+               
+            </datalist>  
+        </div>
+</fieldset>
+
+<input class="btn" type="submit" value="enviar datos">
+
+    
+       
+</form>
+    
+
+
+    <footer class="site-footer contenedor">
+        <div class="grid-footer contenedor">
+        <div>
+            <h3>Categorias</h3>
+   
+            <nav class="footer-menu">
+               <a href="">Cocina</a>
+               <a href="">oficina</a>
+               <a href="">Jardin</a>
+               <a href="">Cochera</a>
+               <a href="">Dormitorio</a>
+            </nav>
+        </div>
+   
+        <div>
+           <h3>Sobre Nosotros</h3>
+           <nav class="footer-menu">
+               <a href="">Nuestra Historia</a>
+               <a href="">Mision, Vision y Valores</a>
+               <a href="">Carrerras</a>
+               <a href="">Politicas de Privacidad</a>
+               <a href="">Terminos del Servicio</a>
+           </nav>
+       </div>
+   
+       <div>
+           <h3>Soporte</h3>
+           <nav class="footer-menu">
+               <a href="">Preguntas Frecuentes</a>
+               <a href="">Ayuda en Lìnea</a>
+               <a href="">Confianza y Seguridad</a>
+           </nav>
+       </div>
+   </div>
+       
+       <p class="copy">  Todos los derechos Reservados, TiendaMuebles</p> 
+    </footer>
+    
+</body>
+</html>
