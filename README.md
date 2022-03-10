@@ -15,4 +15,9 @@ Section "Galeria" // Seccion Galería.
 Section "Contacto" // Seccion de Contacto.
 <img src= "https://i.postimg.cc/fR19MN2t/Contacto.jpg"/> 
 
+And fully Responsive !!!! // Completamente Responsive !!!! 
+<img src= "https://i.postimg.cc/Dwgnvdy9/Responsive.jpg"/> 
+
+
+
 
